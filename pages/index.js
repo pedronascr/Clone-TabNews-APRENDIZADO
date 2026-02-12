@@ -1,4 +1,4 @@
-import logo from "./src/assets/logo-site-teste.png";
+import logo from "/src/assets/logo-site-teste.png";
 
 function Home() {
   return (

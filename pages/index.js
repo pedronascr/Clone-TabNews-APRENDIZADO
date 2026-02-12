@@ -1,9 +1,9 @@
-import logo from "/src/assets/logo-site-teste.png";
+import logo from "./assets/logo site teste.png";
 
 function Home() {
   return (
     <div>
-      <img src={logo} alt="Descrição" />
+      <img src={logo} alt="Logo do site" />
     </div>
   );
 }

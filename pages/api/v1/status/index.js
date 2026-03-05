@@ -10,9 +10,9 @@ async function status(req, res) {
 
   res.status(200).json({
     updated_at: updatedAt,
-    max_connections: maxConnections,
-    active_connections: activeConnections,
-    actual_version: actualVersion,
+    max_connections: maxConnections.rows[0].max_connections,
+    active_connections: activeConnections.rows[0].count,
+    actual_version: actualVersion.rows[0].version,
   });
 }
 
